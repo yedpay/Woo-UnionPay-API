@@ -1,0 +1,25 @@
+{
+    "name": "yedpay/php-library",
+    "description": "Agnostic Library to use the Yedpay API for Precretae transactions",
+    "type": "library",
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.36",
+        "phpdocumentor/reflection-docblock": "3.2.2",
+        "doctrine/instantiator": "~1.0.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yedpay",
+            "email": "info@gcash.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yedpay\\": "src/"
+        }
+    }
+}
