@@ -281,6 +281,7 @@ class WoocommerceUnionpay extends WC_Payment_Gateway
             $server_output = $client->precreate($this->unionpayapi_store_id, $order->order_total, json_encode($extra));
         } catch (Exception $e) {
             // No response or unexpected response
+            $order->add_order_note(__('UnionPay Precreate failed. Error Message: ' . $e->getMessage(), 'woocommerce'));
             $this->get_response($order);
             return;
         }
@@ -299,6 +300,11 @@ class WoocommerceUnionpay extends WC_Payment_Gateway
                     'result' => 'success',
                     'redirect' => $redirect_url
                 ];
+        } elseif ($server_output instanceof Error) {
+            $message = 'UnionPay Precreate failed. ' .
+                        'Error Code: ' . $server_output->getErrorCode() . '. ' .
+                        'Error Message: ' . $server_output->getMessage();
+            $order->add_order_note(__($message, 'woocommerce'));
         }
 
         // No response or unexpected response

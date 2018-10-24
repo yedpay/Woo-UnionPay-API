@@ -4,8 +4,8 @@ Contributors: Yedpay
 Donate link: 
 Tags: woocommerce Unionpay, payment gateway, woocommerce, woocommerce payment gateway
 Requires at least: 3.0.1
-Tested up to: 4.9.6
-Stable tag: 1.1.0
+Tested up to: 4.9.8
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,7 +16,7 @@ This Payment Gateway For WooCommerce extends the functionality of WooCommerce to
 <h3>Unionpay Payment Gateway for WooCommerce</h3> makes your website ready to use Unionpay on your ecommerce store in safe way. 
 
 
-Tested with Wordpress 4.9.6 , WooCommerce version 3.4.3
+Tested with Wordpress 4.9.8 , WooCommerce version 3.5.0
 
 = Features =
 Few features of this plugin:
@@ -39,7 +39,7 @@ Easy steps to install the plugin:
 
 == Frequently Asked Questions ==
 = What version of Wordpress and Woocommerce does this work with? =
-* Version 1.1.0 has been tested with Wordpress 4.9.6 , WooCommerce version 3.4.3
+* Version 1.1.1 has been tested with Wordpress 4.9.8 , WooCommerce version 3.5.0
 
 == Screenshots ==
 
@@ -49,6 +49,9 @@ Easy steps to install the plugin:
 4. Plugin Configuration
 
 == Changelog ==
+= 1.1.1 =
+* Add Error Handling
+
 = 1.1.0 =
 * Add Store ID Setting 
 * Use library for Payment
