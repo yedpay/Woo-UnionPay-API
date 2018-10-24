@@ -3,7 +3,7 @@
 /*
   Plugin Name: Woo-UnionPay-API
   Description: Extends WooCommerce to Process Payments with UnionPay's API Method.
-  Version: 1.1.0
+  Version: 1.1.1
   Plugin URI: https://wordpress.org/plugins/woo-unionpay-api/
   Author: Yedpay
   Author URI: https://www.yedpay.com/
