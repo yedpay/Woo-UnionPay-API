@@ -5,7 +5,7 @@ Donate link:
 Tags: woocommerce Unionpay, payment gateway, woocommerce, woocommerce payment gateway
 Requires at least: 3.0.1
 Tested up to: 4.9.8
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,7 +39,7 @@ Easy steps to install the plugin:
 
 == Frequently Asked Questions ==
 = What version of Wordpress and Woocommerce does this work with? =
-* Version 1.1.1 has been tested with Wordpress 4.9.8 , WooCommerce version 3.5.0
+* Version 1.1.2 has been tested with Wordpress 4.9.8 , WooCommerce version 3.5.0
 
 == Screenshots ==
 
@@ -49,6 +49,9 @@ Easy steps to install the plugin:
 4. Plugin Configuration
 
 == Changelog ==
+= 1.1.2 =
+* Update Library
+
 = 1.1.1 =
 * Add Error Handling
 
