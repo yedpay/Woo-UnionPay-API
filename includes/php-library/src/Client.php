@@ -101,7 +101,7 @@ class Client
         return $this->curl->call($this->path, 'POST', $parameter);
     }
 
-    /**
+        /**
      * @param $storeId
      * @param $amount
      * @param $extraParam

@@ -118,7 +118,7 @@ class WoocommerceUnionpay extends WC_Payment_Gateway
         echo '<p>' . __('UnionPay is the most popular payment gateway for online payment processing') . '</p>';
         echo '<table class="form-table">';
         $this->generate_settings_html();
-        echo '<tr><td>(Module Version 1.1.0)</td></tr></table>';
+        echo '<tr><td>(Module Version 1.1.2)</td></tr></table>';
     }
 
     /**
